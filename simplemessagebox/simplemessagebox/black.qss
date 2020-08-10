@@ -1,0 +1,55 @@
+QWidget {
+    font:normal normal 16px "微软雅黑";
+}
+
+QWidget#titleWidget{
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #4D4D4D, stop:1 #292929);
+}
+
+QLabel#iconLbl {
+    border-image:url(:/simplemessagebox/simplemessagebox/home.png);
+}
+
+QLabel#titleLbl {
+    color:white;
+}
+
+QPushButton#closeBtn {
+    border-image:url(:/simplemessagebox/simplemessagebox/close.png);
+}
+
+QPushButton#closeBtn:hover {
+    border-image:url(:/simplemessagebox/simplemessagebox/close_hover.png);
+}
+
+QPushButton#closeBtn:pressed {
+    border-image:url(:/simplemessagebox/simplemessagebox/close_pressed.png);
+}
+
+QLabel#textLbl {
+    font-size:17px;
+}
+
+QPushButton#okBtn,
+QPushButton#cancleBtn
+{
+    color:white;
+    background-color:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #4D4D4D, stop:1 #292929);
+    border:0px none transparent;
+    border-radius:5px;
+    font-size:18px
+}
+
+QPushButton#okBtn:hover,
+QPushButton#cancleBtn:hover
+{
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #636363, stop:1 #575757);
+}
+
+QPushButton#okBtn:pressed,
+QPushButton#cancleBtn:pressed
+{
+    background:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #4D4D4D, stop:1 #292929);
+    padding:1px -1px -1px 1px; 
+}
+

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/popumessagebox">
+        <file>popupmessagebox/black.qss</file>
+        <file>popupmessagebox/close.png</file>
+        <file>popupmessagebox/close_hover.png</file>
+        <file>popupmessagebox/close_pressed.png</file>
+        <file>popupmessagebox/home.png</file>
+    </qresource>
+</RCC>

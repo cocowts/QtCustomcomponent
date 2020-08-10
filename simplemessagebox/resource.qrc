@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/simplemessagebox">
+        <file>simplemessagebox/black.qss</file>
+        <file>simplemessagebox/close.png</file>
+        <file>simplemessagebox/close_hover.png</file>
+        <file>simplemessagebox/close_pressed.png</file>
+        <file>simplemessagebox/error.png</file>
+        <file>simplemessagebox/home.png</file>
+        <file>simplemessagebox/info.png</file>
+        <file>simplemessagebox/question.png</file>
+    </qresource>
+</RCC>
