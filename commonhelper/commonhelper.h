@@ -84,6 +84,29 @@ public:
         QProcess::startDetached(program, argument, workDirectory);
         QApplication::exit();
     }
+	
+	// 文字转语音
+	/*
+	#include <QTextToSpeech>
+	QT += texttospeech
+	static bool textToSpeech(const QString &text, double volume=1.0, double rate=0.0, double pitch=0.0)
+	{
+		if (QTextToSpeech::availableEngines().isEmpty())
+			return false;
+
+		static QTextToSpeech speech(qApp);
+
+		if (speech.state() != QTextToSpeech::Ready)
+			return false;
+
+		speech.setVolume(volume);
+		speech.setRate(rate);
+		speech.setPitch(pitch);
+		speech.say(text);
+
+		return true;
+	}
+	*/
 };
 
 #endif // COMMONHELPER_H
