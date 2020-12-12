@@ -338,7 +338,7 @@ void ColorDashboard::drawText(QPainter *painter)
     painter->setFont(QFont("Consolas", m_radius * 0.1, QFont::Bold));
 
     QFontMetrics fm = QFontMetrics(painter->font());
-    QString strVal  = QString::number(m_value, 10);
+    QString strVal  = QString::number(m_curValue, 10);
     int w = fm.horizontalAdvance(strVal);
     int h = fm.height();
     painter->drawText(-w/2, -h/2, w, h, Qt::AlignCenter, strVal);
