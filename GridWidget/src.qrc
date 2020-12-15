@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/image">
+        <file>src/icon.gif</file>
+        <file>src/02.png</file>
+        <file>src/03.png</file>
+        <file>src/04.png</file>
+        <file>src/08.png</file>
+        <file>src/09.png</file>
+        <file>src/10.png</file>
+        <file>src/11.png</file>
+        <file>src/12.png</file>
+        <file>src/13.png</file>
+        <file>src/14.png</file>
+        <file>src/18.png</file>
+        <file>src/20.png</file>
+        <file>src/22.png</file>
+        <file>src/background.gif</file>
+        <file>src/01.png</file>
+        <file>src/05.png</file>
+        <file>src/06.png</file>
+        <file>src/07.png</file>
+        <file>src/15.png</file>
+        <file>src/16.png</file>
+        <file>src/17.png</file>
+        <file>src/19.png</file>
+        <file>src/21.png</file>
+        <file>src/00.png</file>
+    </qresource>
+</RCC>
