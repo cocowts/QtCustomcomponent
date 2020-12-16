@@ -26,22 +26,19 @@ MainWindow::MainWindow(QWidget *parent)
 
     for (int i=0; i<10; ++i)
     {
-        QLabel *label = new QLabel(pGridWidget);
-        label->setPixmap(QPixmap(QString(":/image/src/%1.png").arg(i, 2, 10, QLatin1Char('0'))));
-        label->setScaledContents(true);
-
-        pGridWidget->append(label);
+        QLabel *pLabel = new QLabel(pGridWidget);
+        pLabel->setPixmap(QPixmap(QString(":/image/src/%1.png").arg(i, 2, 10, QLatin1Char('0'))));
+        pLabel->setScaledContents(true);
+        pGridWidget->append(pLabel);
     }
 
-    QLabel *label = new QLabel(pGridWidget);
-    label->setFixedSize(60, 60);
-    label->setScaledContents(true);
-
+    QLabel *pLabel = new QLabel(pGridWidget);
+    pLabel->setFixedSize(60, 60);
+    pLabel->setScaledContents(true);
     QMovie *movie1 = new QMovie(":/image/src/icon.gif");
     movie1->start();
-    label->setMovie(movie1);
-
-    pGridWidget->insert(0, label);
+    pLabel->setMovie(movie1);
+    pGridWidget->insert(0, pLabel);
 
     //============================================================
 
