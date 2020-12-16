@@ -12,3 +12,4 @@
 
 [自定义组件_通用仪表盘](https://segmentfault.com/a/1190000038461926)
 
+[自定义组件_网格组件(GirdWidget)](https://segmentfault.com/a/1190000038489891)
