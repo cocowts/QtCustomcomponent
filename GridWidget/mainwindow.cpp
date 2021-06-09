@@ -45,6 +45,8 @@ MainWindow::MainWindow(QWidget *parent)
     QVBoxLayout *pLayout = new QVBoxLayout;
     pLayout->addWidget(pGridWidget);
     setLayout(pLayout);
+
+    // setStyleSheet("QLabel:hover {border: 2px solid white;border-radius:5px;}");
 }
 
 MainWindow::~MainWindow()
